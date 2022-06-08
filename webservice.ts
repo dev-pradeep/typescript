@@ -70,6 +70,7 @@ export class WebserviceService {
     dashboardQuote: "/api-path/quote",
     uploadContract: "/api-path/contracts/upload",
   };
+  
   constructor(
     private httpclient: HttpClient,
     private nativeStorage: NativeStorage,
